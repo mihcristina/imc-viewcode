@@ -9,11 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var imcScreen: ImcScreen?
+    var imcScreen:ImcScreen?
     
     override func loadView() {
-        imcScreen = ImcScreen()
-        view = imcScreen
+        self.imcScreen = ImcScreen()
+        self.view = self.imcScreen
     }
     
     override func viewDidLoad() {
